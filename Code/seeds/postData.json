@@ -1,0 +1,42 @@
+[
+    {
+        "title": "Music Near Me",
+        "body": "A mobile app that will se4nd you notifications whenever a concert is playing in your area."
+    },
+    {
+        "title": "The Ultimate Tech Quiz",
+        "body": "A quiz app that will test your knowledge of the tech industry, on topics such as programming, cybersecurity, database architecture, and more!"
+    },
+    {
+        "title": "Roll Em Up",
+        "body": "A game for Windows and macOS where players move a ball through a series of increasingly difficult mazes. The game will feature a leaderboard and achievements."
+    },
+    {
+        "title": "Habit Tracker",
+        "body": "A mobile app that will help you track your habits and goals. The app will feature a calendar view, reminders, and a progress tracker."
+    },
+    {
+        "title": "Recipe Finder",
+        "body": "A mobile app that will help you find recipes based on the ingredients you have on hand. The app will also feature a shopping list and meal planner."
+    },
+    {
+        "title": "Budget Tracker",
+        "body": "A mobile app that will help you track your spending and savings. The app will feature a budget planner, expense tracker, and savings goal tracker."
+    },
+    {
+        "title": "Weather App",
+        "body": "A mobile app that will show you the current weather conditions and forecast for your location. The app will also feature weather alerts and a radar map."
+    },
+    {
+        "title": "To-Do List",
+        "body": "A mobile app that will help you keep track of your tasks and appointments. The app will feature a calendar view, reminders, and a progress tracker."
+    },
+    {
+        "title": "Fitness Tracker",
+        "body": "A mobile app that will help you track your workouts and fitness goals. The app will feature a workout planner, exercise tracker, and progress tracker."
+    },
+    {
+        "title": "Meditation App",
+        "body": "A mobile app that will help you relax and reduce stress. The app will feature guided meditations, breathing exercises, and sleep sounds."
+    }
+]

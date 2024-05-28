@@ -36,4 +36,6 @@ So that I can publish articles, blog posts, and my thoughts and opinions
 
 ## Description
 
+This application allows users to publish articles, blog posts, and thoughts and opinions on the subject of tech. Developers and other interested parties are able to come to the Tech Blog site and discuss topics in which they are working on or are researching. 
+
 ## 
