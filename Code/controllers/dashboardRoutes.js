@@ -1,6 +1,6 @@
 const router = require('express').Router();
-const {Post} = require('../../models');
-const {withGuard} = require('../../utils/authGuard');
+const { Post } = require('../models');
+const { withGuard } = require('../utils/authGuard');
 
 router.get('/', withGuard, async (req, res) => {
     try {
@@ -12,7 +12,7 @@ router.get('/', withGuard, async (req, res) => {
 
         const posts = postData.map((post) => post.get({plain: true}));
 
-        res.render('dashboard', {posts, loggedIn: req.session.loggedIn});
+        res.render('dashboard', {posts, dashboard: true, loggedIn: req.session.loggedIn});
     } catch (err) {
         res.status(500).json(err);
     }

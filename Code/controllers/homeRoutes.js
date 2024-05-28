@@ -1,6 +1,6 @@
 const router = require('express').Router();
-const { Post, Comment, User } = require('../../models');
-const { withGuard, withoutGuard } = require('../../utils/authGuard');
+const { Post, User, Comment } = require('../models');
+const { withoutGuard } = require('../utils/authGuard');
 
 router.get('/', async (req, res) => {
     try {
@@ -57,8 +57,7 @@ router.get('/login', withoutGuard, (req, res) => {
     if (req.session.loggedIn) {
         res.redirect('/');
         return;
-    }
-
+    } 
     res.render('login');
 }
 );
