@@ -17,10 +17,14 @@ const loginFormHandler = async (event) => {
             alert('Failed to log in');
         }
     }
+
+    // If the user doesn't enter a username or password, the alert will display
+    else {
+        alert('Please enter a valid username and password');
+    }
+
 }
 
 document
     .querySelector('.login-form')
     .addEventListener('submit', loginFormHandler);
-
-    
